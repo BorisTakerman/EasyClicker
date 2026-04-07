@@ -2,8 +2,6 @@
 
 from __future__ import annotations
 
-import sys
-
 
 def main() -> int:
     try:
@@ -32,4 +30,6 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    exit_code = main()
+    if exit_code:
+        print(f"[easyclicker] Launcher exited with code {exit_code}.")
