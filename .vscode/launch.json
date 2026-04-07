@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "EasyClicker: Run app",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_easyclicker.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
