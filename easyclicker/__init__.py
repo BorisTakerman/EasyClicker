@@ -1,0 +1,1 @@
+"""EasyClicker package."""
