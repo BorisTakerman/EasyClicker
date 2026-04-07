@@ -71,4 +71,4 @@ If you just want to press **Run** in VS Code:
 4. Open **Run and Debug** and select **EasyClicker: Run app**.
 5. Press **F5**.
 
-This runs `run_easyclicker.py`, which launches the app with sane defaults for fast manual testing.
+This runs `run_easyclicker.py`, which launches the app with sane defaults for fast manual testing. If dependencies are missing, the launcher will try to run `pip install -r requirements.txt` automatically once.
